@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6503CA9719EF0B1F0037576B /* MTECrearConsultorioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6503CA9619EF0B1F0037576B /* MTECrearConsultorioViewController.m */; };
+		6503CA9A19EF20CD0037576B /* MTEiPadCrearConsultorioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6503CA9919EF20CD0037576B /* MTEiPadCrearConsultorioViewController.m */; };
 		6507A8CF198C002500778DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6507A8CE198C002500778DFE /* Foundation.framework */; };
 		6507A8D1198C002500778DFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6507A8D0198C002500778DFE /* CoreGraphics.framework */; };
 		6507A8D3198C002500778DFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6507A8D2198C002500778DFE /* UIKit.framework */; };
@@ -14,14 +16,121 @@
 		6507A8DB198C002500778DFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6507A8DA198C002500778DFE /* main.m */; };
 		6507A8DF198C002500778DFE /* MTEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6507A8DE198C002500778DFE /* MTEAppDelegate.m */; };
 		6507A8E2198C002500778DFE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6507A8E0198C002500778DFE /* Main_iPhone.storyboard */; };
-		6507A8E5198C002500778DFE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6507A8E3198C002500778DFE /* Main_iPad.storyboard */; };
-		6507A8E8198C002500778DFE /* MTEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6507A8E7198C002500778DFE /* MTEViewController.m */; };
 		6507A8EA198C002500778DFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6507A8E9198C002500778DFE /* Images.xcassets */; };
 		6507A8F1198C002500778DFE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6507A8F0198C002500778DFE /* XCTest.framework */; };
 		6507A8F2198C002500778DFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6507A8CE198C002500778DFE /* Foundation.framework */; };
 		6507A8F3198C002500778DFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6507A8D2198C002500778DFE /* UIKit.framework */; };
 		6507A8FB198C002500778DFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6507A8F9198C002500778DFE /* InfoPlist.strings */; };
 		6507A8FD198C002500778DFE /* MedicalAssistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6507A8FC198C002500778DFE /* MedicalAssistantTests.m */; };
+		6507A909198C013A00778DFE /* MTELoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6507A908198C013A00778DFE /* MTELoginViewController.m */; };
+		6507A90C198C044A00778DFE /* MTERegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6507A90B198C044A00778DFE /* MTERegisterViewController.m */; };
+		6507A910198C099900778DFE /* medLogoLetras.png in Resources */ = {isa = PBXBuildFile; fileRef = 6507A90F198C099900778DFE /* medLogoLetras.png */; };
+		6508822219B77BDB002FD16D /* MTEagendaCollectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6508822119B77BDB002FD16D /* MTEagendaCollectionHeader.m */; };
+		6508822419B78986002FD16D /* Arrow_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6508822319B78986002FD16D /* Arrow_1.png */; };
+		6508822619B7898C002FD16D /* Arrow_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6508822519B7898C002FD16D /* Arrow_3.png */; };
+		653586D51A93AF0200BAA55E /* MTEHistoriaClinicaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653586D41A93AF0200BAA55E /* MTEHistoriaClinicaViewController.m */; };
+		653586D81A93B0F400BAA55E /* MTEExamenFisicoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653586D71A93B0F400BAA55E /* MTEExamenFisicoViewController.m */; };
+		6539B9AB19F9B2C0006D6531 /* MTECrearClienteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6539B9AA19F9B2C0006D6531 /* MTECrearClienteViewController.m */; };
+		6539B9B719F9B4CD006D6531 /* MTESelecEntidadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6539B9B619F9B4CD006D6531 /* MTESelecEntidadTableViewController.m */; };
+		6539B9BA19FAAA84006D6531 /* MTEClientesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6539B9B919FAAA84006D6531 /* MTEClientesTableViewController.m */; };
+		6539B9BE19FAAB30006D6531 /* MTEPacienteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6539B9BC19FAAB30006D6531 /* MTEPacienteTableViewCell.m */; };
+		6539B9BF19FAAB30006D6531 /* MTEPacienteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6539B9BD19FAAB30006D6531 /* MTEPacienteTableViewCell.xib */; };
+		654CB4C51A1C04A1006157E7 /* MTEiPadDayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 654CB4C31A1C04A1006157E7 /* MTEiPadDayTableViewCell.m */; };
+		654CB4C61A1C04A1006157E7 /* MTEiPadDayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654CB4C41A1C04A1006157E7 /* MTEiPadDayTableViewCell.xib */; };
+		6552568A19E610C200F19E7E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6552568819E610C200F19E7E /* Main_iPad.storyboard */; };
+		65590A891AB9EF8C00709D0C /* pacTab1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65590A871AB9EF8C00709D0C /* pacTab1.png */; };
+		65590A8A1AB9EF8C00709D0C /* pacTab2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65590A881AB9EF8C00709D0C /* pacTab2.png */; };
+		65590A8F1AB9F60300709D0C /* exa1tab1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65590A8B1AB9F60300709D0C /* exa1tab1.png */; };
+		65590A901AB9F60300709D0C /* exa1tab2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65590A8C1AB9F60300709D0C /* exa1tab2.png */; };
+		65590A911AB9F60300709D0C /* exa2tab1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65590A8D1AB9F60300709D0C /* exa2tab1.png */; };
+		65590A921AB9F60300709D0C /* exa2tab2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65590A8E1AB9F60300709D0C /* exa2tab2.png */; };
+		65590A951ABA001A00709D0C /* historiatab1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65590A931ABA001A00709D0C /* historiatab1.png */; };
+		65590A961ABA001A00709D0C /* historiatab2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65590A941ABA001A00709D0C /* historiatab2.png */; };
+		65590A9D1ABA01D500709D0C /* controltab1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65590A9B1ABA01D500709D0C /* controltab1.png */; };
+		65590A9E1ABA01D500709D0C /* controltab2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65590A9C1ABA01D500709D0C /* controltab2.png */; };
+		6562A0851A1563EC004F0903 /* MTEiphoneAgendaMonthCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6562A0841A1563EC004F0903 /* MTEiphoneAgendaMonthCollectionViewController.m */; };
+		656691651AB8888900E22E20 /* MTEFormulacionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656691641AB8888900E22E20 /* MTEFormulacionTableViewController.m */; };
+		656691681AB88CAD00E22E20 /* MTEformulacion.m in Sources */ = {isa = PBXBuildFile; fileRef = 656691671AB88CAD00E22E20 /* MTEformulacion.m */; };
+		6566916C1AB88DE500E22E20 /* MTEFormulacionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6566916A1AB88DE500E22E20 /* MTEFormulacionTableViewCell.m */; };
+		6566916D1AB88DE500E22E20 /* MTEFormulacionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6566916B1AB88DE500E22E20 /* MTEFormulacionTableViewCell.xib */; };
+		656691731AB8D90C00E22E20 /* agenda.png in Resources */ = {isa = PBXBuildFile; fileRef = 656691721AB8D90C00E22E20 /* agenda.png */; };
+		656691751AB8DA8E00E22E20 /* consultorio.png in Resources */ = {isa = PBXBuildFile; fileRef = 656691741AB8DA8E00E22E20 /* consultorio.png */; };
+		656691771AB8DBDE00E22E20 /* procedimientos.png in Resources */ = {isa = PBXBuildFile; fileRef = 656691761AB8DBDE00E22E20 /* procedimientos.png */; };
+		656691791AB8DDEC00E22E20 /* bcint.png in Resources */ = {isa = PBXBuildFile; fileRef = 656691781AB8DDEC00E22E20 /* bcint.png */; };
+		6566917B1AB8E2F900E22E20 /* entidades.png in Resources */ = {isa = PBXBuildFile; fileRef = 6566917A1AB8E2F900E22E20 /* entidades.png */; };
+		6566917D1AB9037900E22E20 /* pacientes.png in Resources */ = {isa = PBXBuildFile; fileRef = 6566917C1AB9037900E22E20 /* pacientes.png */; };
+		656691801AB90D5900E22E20 /* MTEantecedente.m in Sources */ = {isa = PBXBuildFile; fileRef = 6566917F1AB90D5900E22E20 /* MTEantecedente.m */; };
+		656691821AB9116100E22E20 /* agenda2.png in Resources */ = {isa = PBXBuildFile; fileRef = 656691811AB9116100E22E20 /* agenda2.png */; };
+		65793EE21A166D5A0095D3F6 /* MTEcita.m in Sources */ = {isa = PBXBuildFile; fileRef = 65793EE11A166D5A0095D3F6 /* MTEcita.m */; };
+		6584BF8C19BA55F000995B0F /* MTEiPadAgendaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6584BF8B19BA55F000995B0F /* MTEiPadAgendaViewController.m */; };
+		6584BF8F19BA652900995B0F /* MTEiPadAgendaMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6584BF8E19BA652900995B0F /* MTEiPadAgendaMonthViewController.m */; };
+		659061A11A2CE64B0001496B /* MTEresultadoCitaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659061A01A2CE64B0001496B /* MTEresultadoCitaViewController.m */; };
+		659383291AB7AB0B0082BDC4 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 659383281AB7AB0B0082BDC4 /* bg2.png */; };
+		6599526919FED9FC00FAC612 /* MTEiPadPacienteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6599526719FED9FC00FAC612 /* MTEiPadPacienteTableViewCell.m */; };
+		6599526A19FED9FC00FAC612 /* MTEiPadPacienteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6599526819FED9FC00FAC612 /* MTEiPadPacienteTableViewCell.xib */; };
+		6599526D19FEDAA100FAC612 /* MTEiPadClientesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6599526C19FEDAA100FAC612 /* MTEiPadClientesTableViewController.m */; };
+		6599527019FEDAE700FAC612 /* MTEiPadCrearClienteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6599526F19FEDAE700FAC612 /* MTEiPadCrearClienteViewController.m */; };
+		6599527319FEE3D500FAC612 /* MTEiPadSelecEntidadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6599527219FEE3D500FAC612 /* MTEiPadSelecEntidadTableViewController.m */; };
+		659C2DDD19F0366500620DE5 /* MTEMedicalCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C2DDC19F0366500620DE5 /* MTEMedicalCenter.m */; };
+		659C2DE019F0385600620DE5 /* MTEpaciente.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C2DDF19F0385600620DE5 /* MTEpaciente.m */; };
+		659C2DE319F0386800620DE5 /* MTEconsultorio.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C2DE219F0386800620DE5 /* MTEconsultorio.m */; };
+		659C2DE619F05BE500620DE5 /* MTEConsultoriosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C2DE519F05BE500620DE5 /* MTEConsultoriosTableViewController.m */; };
+		659C2DE919F073F600620DE5 /* MTEiPadConsultoriosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 659C2DE819F073F600620DE5 /* MTEiPadConsultoriosTableViewController.m */; };
+		659ECF0119B62D7200E4FA14 /* MTEday.m in Sources */ = {isa = PBXBuildFile; fileRef = 659ECF0019B62D7200E4FA14 /* MTEday.m */; };
+		65A033091A1BA05D00198333 /* MTEiPadCrearCitaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A033081A1BA05D00198333 /* MTEiPadCrearCitaViewController.m */; };
+		65A33DF61A1123F500DB41E3 /* MTEPrecioXEntidadCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A33DF41A1123F500DB41E3 /* MTEPrecioXEntidadCollectionViewCell.m */; };
+		65A33DF71A1123F500DB41E3 /* MTEPrecioXEntidadCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A33DF51A1123F500DB41E3 /* MTEPrecioXEntidadCollectionViewCell.xib */; };
+		65A33DFA1A115CCD00DB41E3 /* MTEprecioProcedimiento.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A33DF91A115CCD00DB41E3 /* MTEprecioProcedimiento.m */; };
+		65A33DFD1A11849F00DB41E3 /* MTEiPadPreciosXEntidadCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A33DFC1A11849F00DB41E3 /* MTEiPadPreciosXEntidadCollectionViewController.m */; };
+		65A33E011A1184D500DB41E3 /* MTEiPadPrecioXEntidadCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A33DFF1A1184D500DB41E3 /* MTEiPadPrecioXEntidadCollectionViewCell.m */; };
+		65A33E021A1184D500DB41E3 /* MTEiPadPrecioXEntidadCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65A33E001A1184D500DB41E3 /* MTEiPadPrecioXEntidadCollectionViewCell.xib */; };
+		65A36A1819DF27210091A34B /* MTEForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A36A1719DF27210091A34B /* MTEForgotPasswordViewController.m */; };
+		65A7F2CB19BE13BC0097A8B3 /* MTEiPadAgendaHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A7F2CA19BE13BC0097A8B3 /* MTEiPadAgendaHeader.m */; };
+		65A7F2CE19BE28F30097A8B3 /* MTEiPadDayAgendaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A7F2CD19BE28F30097A8B3 /* MTEiPadDayAgendaTableViewController.m */; };
+		65AB1DE91A1A9C7F009CA8C0 /* MTEcitaCompleta.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AB1DE81A1A9C7F009CA8C0 /* MTEcitaCompleta.m */; };
+		65ADD6A11A2798ED00B30CED /* MTEdiagnosticoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ADD6A01A2798ED00B30CED /* MTEdiagnosticoTableViewController.m */; };
+		65ADD6A51A27994100B30CED /* MTEdiagTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ADD6A31A27994100B30CED /* MTEdiagTableViewCell.m */; };
+		65ADD6A61A27994100B30CED /* MTEdiagTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65ADD6A41A27994100B30CED /* MTEdiagTableViewCell.xib */; };
+		65ADD6AB1A27A6FD00B30CED /* MTEdiagnostico.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ADD6AA1A27A6FD00B30CED /* MTEdiagnostico.m */; };
+		65ADD6AD1A28DCF800B30CED /* diagnosticos.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ADD6AC1A28DCF800B30CED /* diagnosticos.txt */; };
+		65ADD6B01A291B1700B30CED /* MTEmedicamentosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ADD6AF1A291B1700B30CED /* MTEmedicamentosTableViewController.m */; };
+		65ADD6B51A291D8500B30CED /* MTEmedicamento.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ADD6B41A291D8500B30CED /* MTEmedicamento.m */; };
+		65ADD6B91A29338300B30CED /* MTEmedicamentoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ADD6B71A29338300B30CED /* MTEmedicamentoTableViewCell.m */; };
+		65ADD6BA1A29338300B30CED /* MTEmedicamentoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65ADD6B81A29338300B30CED /* MTEmedicamentoTableViewCell.xib */; };
+		65ADD6BC1A2937C900B30CED /* medicamentos.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ADD6BB1A2937C900B30CED /* medicamentos.txt */; };
+		65AECFF01A0C1436009CE819 /* MTEiPadEntidadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AECFEE1A0C1436009CE819 /* MTEiPadEntidadTableViewCell.m */; };
+		65AECFF11A0C1436009CE819 /* MTEiPadEntidadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AECFEF1A0C1436009CE819 /* MTEiPadEntidadTableViewCell.xib */; };
+		65AECFF41A0C1620009CE819 /* MTEiPadEntidadesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AECFF31A0C1620009CE819 /* MTEiPadEntidadesTableViewController.m */; };
+		65AECFF61A0C2465009CE819 /* Arrow_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AECFF51A0C2465009CE819 /* Arrow_2.png */; };
+		65AECFFA1A0C2C4D009CE819 /* Arrow_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 65AECFF91A0C2C4D009CE819 /* Arrow_4.png */; };
+		65AECFFD1A0C339D009CE819 /* MTEProcedimientosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AECFFC1A0C339D009CE819 /* MTEProcedimientosTableViewController.m */; };
+		65AED0001A0C33BE009CE819 /* MTEprocedimiento.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AECFFF1A0C33BE009CE819 /* MTEprocedimiento.m */; };
+		65AED0031A0C3AAD009CE819 /* MTECrearProcedimientoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AED0021A0C3AAD009CE819 /* MTECrearProcedimientoViewController.m */; };
+		65B790421A0D61590019B262 /* MTEiPadProcedimientosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B790411A0D61590019B262 /* MTEiPadProcedimientosTableViewController.m */; };
+		65B790451A0D61D50019B262 /* MTEiPadCrearProcedimientoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B790441A0D61D50019B262 /* MTEiPadCrearProcedimientoViewController.m */; };
+		65B790481A0D7DEE0019B262 /* MTEPreciosXEntidadCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B790471A0D7DEE0019B262 /* MTEPreciosXEntidadCollectionViewController.m */; };
+		65BCA6DC19B8DB9E00B63EF9 /* MTEAgendaDayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BCA6DB19B8DB9E00B63EF9 /* MTEAgendaDayTableViewController.m */; };
+		65C90FAD1A02AF0400FB0893 /* MTECrearCitaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C90FAC1A02AF0400FB0893 /* MTECrearCitaViewController.m */; };
+		65C90FB01A02B42B00FB0893 /* flechaAbajo.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C90FAE1A02B42B00FB0893 /* flechaAbajo.png */; };
+		65C90FB11A02B42B00FB0893 /* flechaArriba.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C90FAF1A02B42B00FB0893 /* flechaArriba.png */; };
+		65C90FB81A02D01A00FB0893 /* MTEdayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C90FB61A02D01A00FB0893 /* MTEdayTableViewCell.m */; };
+		65C90FB91A02D01A00FB0893 /* MTEdayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C90FB71A02D01A00FB0893 /* MTEdayTableViewCell.xib */; };
+		65CFE5721AB783BB0023E11E /* Field.png in Resources */ = {isa = PBXBuildFile; fileRef = 65CFE5711AB783BB0023E11E /* Field.png */; };
+		65D9D39C1A40C7630009AB49 /* MTEExamenFisico2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D9D39B1A40C7630009AB49 /* MTEExamenFisico2ViewController.m */; };
+		65D9D39F1A40CB690009AB49 /* MTEControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D9D39E1A40CB690009AB49 /* MTEControlViewController.m */; };
+		65EA76231A092C8500C12F54 /* MTEentidadesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EA76221A092C8500C12F54 /* MTEentidadesTableViewController.m */; };
+		65EA76271A092D0500C12F54 /* MTEentidadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EA76251A092D0500C12F54 /* MTEentidadTableViewCell.m */; };
+		65EA76281A092D0500C12F54 /* MTEentidadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65EA76261A092D0500C12F54 /* MTEentidadTableViewCell.xib */; };
+		65EA762B1A0969BD00C12F54 /* CheckBox_Ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EA76291A0969BD00C12F54 /* CheckBox_Ok.png */; };
+		65EA762C1A0969BD00C12F54 /* CheckBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EA762A1A0969BD00C12F54 /* CheckBox.png */; };
+		65F72BF319F71ED100C9EF46 /* MTEEntidad.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F72BF219F71ED100C9EF46 /* MTEEntidad.m */; };
+		65FED3DF19B0F74A0042EF67 /* Field_Password.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FED3DE19B0F74A0042EF67 /* Field_Password.png */; };
+		65FED3E119B0F99E0042EF67 /* Background_buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FED3E019B0F99E0042EF67 /* Background_buttons.png */; };
+		65FED3E419B0FE380042EF67 /* MTEMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FED3E319B0FE380042EF67 /* MTEMainMenuViewController.m */; };
+		65FED3E619B11A0F0042EF67 /* Field_mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 65FED3E519B11A0F0042EF67 /* Field_mail.png */; };
+		65FED3E919B12C4A0042EF67 /* MTEipadLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FED3E819B12C4A0042EF67 /* MTEipadLoginViewController.m */; };
+		65FED3EC19B130040042EF67 /* MTEiPadMainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FED3EB19B130040042EF67 /* MTEiPadMainMenuViewController.m */; };
+		65FED3EF19B130100042EF67 /* MTEiPadRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FED3EE19B130100042EF67 /* MTEiPadRegisterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +144,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6503CA9519EF0B1F0037576B /* MTECrearConsultorioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTECrearConsultorioViewController.h; sourceTree = "<group>"; };
+		6503CA9619EF0B1F0037576B /* MTECrearConsultorioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTECrearConsultorioViewController.m; sourceTree = "<group>"; };
+		6503CA9819EF20CD0037576B /* MTEiPadCrearConsultorioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadCrearConsultorioViewController.h; sourceTree = "<group>"; };
+		6503CA9919EF20CD0037576B /* MTEiPadCrearConsultorioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadCrearConsultorioViewController.m; sourceTree = "<group>"; };
 		6507A8CB198C002500778DFE /* MedicalAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6507A8CE198C002500778DFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6507A8D0198C002500778DFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,15 +159,185 @@
 		6507A8DD198C002500778DFE /* MTEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTEAppDelegate.h; sourceTree = "<group>"; };
 		6507A8DE198C002500778DFE /* MTEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTEAppDelegate.m; sourceTree = "<group>"; };
 		6507A8E1198C002500778DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		6507A8E4198C002500778DFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		6507A8E6198C002500778DFE /* MTEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTEViewController.h; sourceTree = "<group>"; };
-		6507A8E7198C002500778DFE /* MTEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTEViewController.m; sourceTree = "<group>"; };
 		6507A8E9198C002500778DFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6507A8EF198C002500778DFE /* MedicalAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6507A8F0198C002500778DFE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6507A8F8198C002500778DFE /* MedicalAssistantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedicalAssistantTests-Info.plist"; sourceTree = "<group>"; };
 		6507A8FA198C002500778DFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6507A8FC198C002500778DFE /* MedicalAssistantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicalAssistantTests.m; sourceTree = "<group>"; };
+		6507A907198C013A00778DFE /* MTELoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTELoginViewController.h; sourceTree = "<group>"; };
+		6507A908198C013A00778DFE /* MTELoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTELoginViewController.m; sourceTree = "<group>"; };
+		6507A90A198C044A00778DFE /* MTERegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTERegisterViewController.h; sourceTree = "<group>"; };
+		6507A90B198C044A00778DFE /* MTERegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTERegisterViewController.m; sourceTree = "<group>"; };
+		6507A90F198C099900778DFE /* medLogoLetras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medLogoLetras.png; sourceTree = "<group>"; };
+		6508822019B77BDB002FD16D /* MTEagendaCollectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEagendaCollectionHeader.h; sourceTree = "<group>"; };
+		6508822119B77BDB002FD16D /* MTEagendaCollectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEagendaCollectionHeader.m; sourceTree = "<group>"; };
+		6508822319B78986002FD16D /* Arrow_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow_1.png; sourceTree = "<group>"; };
+		6508822519B7898C002FD16D /* Arrow_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow_3.png; sourceTree = "<group>"; };
+		653586D31A93AF0200BAA55E /* MTEHistoriaClinicaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEHistoriaClinicaViewController.h; sourceTree = "<group>"; };
+		653586D41A93AF0200BAA55E /* MTEHistoriaClinicaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEHistoriaClinicaViewController.m; sourceTree = "<group>"; };
+		653586D61A93B0F400BAA55E /* MTEExamenFisicoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEExamenFisicoViewController.h; sourceTree = "<group>"; };
+		653586D71A93B0F400BAA55E /* MTEExamenFisicoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEExamenFisicoViewController.m; sourceTree = "<group>"; };
+		6539B9A919F9B2C0006D6531 /* MTECrearClienteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTECrearClienteViewController.h; sourceTree = "<group>"; };
+		6539B9AA19F9B2C0006D6531 /* MTECrearClienteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTECrearClienteViewController.m; sourceTree = "<group>"; };
+		6539B9B519F9B4CD006D6531 /* MTESelecEntidadTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTESelecEntidadTableViewController.h; sourceTree = "<group>"; };
+		6539B9B619F9B4CD006D6531 /* MTESelecEntidadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTESelecEntidadTableViewController.m; sourceTree = "<group>"; };
+		6539B9B819FAAA84006D6531 /* MTEClientesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEClientesTableViewController.h; sourceTree = "<group>"; };
+		6539B9B919FAAA84006D6531 /* MTEClientesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEClientesTableViewController.m; sourceTree = "<group>"; };
+		6539B9BB19FAAB30006D6531 /* MTEPacienteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEPacienteTableViewCell.h; sourceTree = "<group>"; };
+		6539B9BC19FAAB30006D6531 /* MTEPacienteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEPacienteTableViewCell.m; sourceTree = "<group>"; };
+		6539B9BD19FAAB30006D6531 /* MTEPacienteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTEPacienteTableViewCell.xib; sourceTree = "<group>"; };
+		654CB4C21A1C04A1006157E7 /* MTEiPadDayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadDayTableViewCell.h; sourceTree = "<group>"; };
+		654CB4C31A1C04A1006157E7 /* MTEiPadDayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadDayTableViewCell.m; sourceTree = "<group>"; };
+		654CB4C41A1C04A1006157E7 /* MTEiPadDayTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTEiPadDayTableViewCell.xib; sourceTree = "<group>"; };
+		6552568919E610C200F19E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		65590A871AB9EF8C00709D0C /* pacTab1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacTab1.png; sourceTree = "<group>"; };
+		65590A881AB9EF8C00709D0C /* pacTab2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacTab2.png; sourceTree = "<group>"; };
+		65590A8B1AB9F60300709D0C /* exa1tab1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exa1tab1.png; sourceTree = "<group>"; };
+		65590A8C1AB9F60300709D0C /* exa1tab2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exa1tab2.png; sourceTree = "<group>"; };
+		65590A8D1AB9F60300709D0C /* exa2tab1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exa2tab1.png; sourceTree = "<group>"; };
+		65590A8E1AB9F60300709D0C /* exa2tab2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exa2tab2.png; sourceTree = "<group>"; };
+		65590A931ABA001A00709D0C /* historiatab1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = historiatab1.png; sourceTree = "<group>"; };
+		65590A941ABA001A00709D0C /* historiatab2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = historiatab2.png; sourceTree = "<group>"; };
+		65590A9B1ABA01D500709D0C /* controltab1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controltab1.png; sourceTree = "<group>"; };
+		65590A9C1ABA01D500709D0C /* controltab2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controltab2.png; sourceTree = "<group>"; };
+		6562A0831A1563EC004F0903 /* MTEiphoneAgendaMonthCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiphoneAgendaMonthCollectionViewController.h; sourceTree = "<group>"; };
+		6562A0841A1563EC004F0903 /* MTEiphoneAgendaMonthCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiphoneAgendaMonthCollectionViewController.m; sourceTree = "<group>"; };
+		656691631AB8888900E22E20 /* MTEFormulacionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEFormulacionTableViewController.h; sourceTree = "<group>"; };
+		656691641AB8888900E22E20 /* MTEFormulacionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEFormulacionTableViewController.m; sourceTree = "<group>"; };
+		656691661AB88CAD00E22E20 /* MTEformulacion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEformulacion.h; sourceTree = "<group>"; };
+		656691671AB88CAD00E22E20 /* MTEformulacion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEformulacion.m; sourceTree = "<group>"; };
+		656691691AB88DE500E22E20 /* MTEFormulacionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEFormulacionTableViewCell.h; sourceTree = "<group>"; };
+		6566916A1AB88DE500E22E20 /* MTEFormulacionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEFormulacionTableViewCell.m; sourceTree = "<group>"; };
+		6566916B1AB88DE500E22E20 /* MTEFormulacionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTEFormulacionTableViewCell.xib; sourceTree = "<group>"; };
+		656691721AB8D90C00E22E20 /* agenda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agenda.png; sourceTree = "<group>"; };
+		656691741AB8DA8E00E22E20 /* consultorio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = consultorio.png; sourceTree = "<group>"; };
+		656691761AB8DBDE00E22E20 /* procedimientos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = procedimientos.png; sourceTree = "<group>"; };
+		656691781AB8DDEC00E22E20 /* bcint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcint.png; sourceTree = "<group>"; };
+		6566917A1AB8E2F900E22E20 /* entidades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = entidades.png; sourceTree = "<group>"; };
+		6566917C1AB9037900E22E20 /* pacientes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacientes.png; sourceTree = "<group>"; };
+		6566917E1AB90D5900E22E20 /* MTEantecedente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEantecedente.h; sourceTree = "<group>"; };
+		6566917F1AB90D5900E22E20 /* MTEantecedente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEantecedente.m; sourceTree = "<group>"; };
+		656691811AB9116100E22E20 /* agenda2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agenda2.png; sourceTree = "<group>"; };
+		65793EE01A166D5A0095D3F6 /* MTEcita.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEcita.h; sourceTree = "<group>"; };
+		65793EE11A166D5A0095D3F6 /* MTEcita.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEcita.m; sourceTree = "<group>"; };
+		6584BF8A19BA55F000995B0F /* MTEiPadAgendaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadAgendaViewController.h; sourceTree = "<group>"; };
+		6584BF8B19BA55F000995B0F /* MTEiPadAgendaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadAgendaViewController.m; sourceTree = "<group>"; };
+		6584BF8D19BA652900995B0F /* MTEiPadAgendaMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadAgendaMonthViewController.h; sourceTree = "<group>"; };
+		6584BF8E19BA652900995B0F /* MTEiPadAgendaMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadAgendaMonthViewController.m; sourceTree = "<group>"; };
+		6590619F1A2CE64B0001496B /* MTEresultadoCitaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEresultadoCitaViewController.h; sourceTree = "<group>"; };
+		659061A01A2CE64B0001496B /* MTEresultadoCitaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEresultadoCitaViewController.m; sourceTree = "<group>"; };
+		659383281AB7AB0B0082BDC4 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
+		6599526619FED9FC00FAC612 /* MTEiPadPacienteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadPacienteTableViewCell.h; sourceTree = "<group>"; };
+		6599526719FED9FC00FAC612 /* MTEiPadPacienteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadPacienteTableViewCell.m; sourceTree = "<group>"; };
+		6599526819FED9FC00FAC612 /* MTEiPadPacienteTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTEiPadPacienteTableViewCell.xib; sourceTree = "<group>"; };
+		6599526B19FEDAA100FAC612 /* MTEiPadClientesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadClientesTableViewController.h; sourceTree = "<group>"; };
+		6599526C19FEDAA100FAC612 /* MTEiPadClientesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadClientesTableViewController.m; sourceTree = "<group>"; };
+		6599526E19FEDAE700FAC612 /* MTEiPadCrearClienteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadCrearClienteViewController.h; sourceTree = "<group>"; };
+		6599526F19FEDAE700FAC612 /* MTEiPadCrearClienteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadCrearClienteViewController.m; sourceTree = "<group>"; };
+		6599527119FEE3D500FAC612 /* MTEiPadSelecEntidadTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadSelecEntidadTableViewController.h; sourceTree = "<group>"; };
+		6599527219FEE3D500FAC612 /* MTEiPadSelecEntidadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadSelecEntidadTableViewController.m; sourceTree = "<group>"; };
+		659C2DDB19F0366500620DE5 /* MTEMedicalCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEMedicalCenter.h; sourceTree = "<group>"; };
+		659C2DDC19F0366500620DE5 /* MTEMedicalCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEMedicalCenter.m; sourceTree = "<group>"; };
+		659C2DDE19F0385600620DE5 /* MTEpaciente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEpaciente.h; sourceTree = "<group>"; };
+		659C2DDF19F0385600620DE5 /* MTEpaciente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEpaciente.m; sourceTree = "<group>"; };
+		659C2DE119F0386800620DE5 /* MTEconsultorio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEconsultorio.h; sourceTree = "<group>"; };
+		659C2DE219F0386800620DE5 /* MTEconsultorio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEconsultorio.m; sourceTree = "<group>"; };
+		659C2DE419F05BE500620DE5 /* MTEConsultoriosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEConsultoriosTableViewController.h; sourceTree = "<group>"; };
+		659C2DE519F05BE500620DE5 /* MTEConsultoriosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEConsultoriosTableViewController.m; sourceTree = "<group>"; };
+		659C2DE719F073F600620DE5 /* MTEiPadConsultoriosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadConsultoriosTableViewController.h; sourceTree = "<group>"; };
+		659C2DE819F073F600620DE5 /* MTEiPadConsultoriosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadConsultoriosTableViewController.m; sourceTree = "<group>"; };
+		659ECEFF19B62D7200E4FA14 /* MTEday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEday.h; sourceTree = "<group>"; };
+		659ECF0019B62D7200E4FA14 /* MTEday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEday.m; sourceTree = "<group>"; };
+		65A033071A1BA05D00198333 /* MTEiPadCrearCitaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadCrearCitaViewController.h; sourceTree = "<group>"; };
+		65A033081A1BA05D00198333 /* MTEiPadCrearCitaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadCrearCitaViewController.m; sourceTree = "<group>"; };
+		65A33DF31A1123F500DB41E3 /* MTEPrecioXEntidadCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEPrecioXEntidadCollectionViewCell.h; sourceTree = "<group>"; };
+		65A33DF41A1123F500DB41E3 /* MTEPrecioXEntidadCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEPrecioXEntidadCollectionViewCell.m; sourceTree = "<group>"; };
+		65A33DF51A1123F500DB41E3 /* MTEPrecioXEntidadCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTEPrecioXEntidadCollectionViewCell.xib; sourceTree = "<group>"; };
+		65A33DF81A115CCD00DB41E3 /* MTEprecioProcedimiento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEprecioProcedimiento.h; sourceTree = "<group>"; };
+		65A33DF91A115CCD00DB41E3 /* MTEprecioProcedimiento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEprecioProcedimiento.m; sourceTree = "<group>"; };
+		65A33DFB1A11849F00DB41E3 /* MTEiPadPreciosXEntidadCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadPreciosXEntidadCollectionViewController.h; sourceTree = "<group>"; };
+		65A33DFC1A11849F00DB41E3 /* MTEiPadPreciosXEntidadCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadPreciosXEntidadCollectionViewController.m; sourceTree = "<group>"; };
+		65A33DFE1A1184D500DB41E3 /* MTEiPadPrecioXEntidadCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadPrecioXEntidadCollectionViewCell.h; sourceTree = "<group>"; };
+		65A33DFF1A1184D500DB41E3 /* MTEiPadPrecioXEntidadCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadPrecioXEntidadCollectionViewCell.m; sourceTree = "<group>"; };
+		65A33E001A1184D500DB41E3 /* MTEiPadPrecioXEntidadCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTEiPadPrecioXEntidadCollectionViewCell.xib; sourceTree = "<group>"; };
+		65A36A1619DF27210091A34B /* MTEForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEForgotPasswordViewController.h; sourceTree = "<group>"; };
+		65A36A1719DF27210091A34B /* MTEForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEForgotPasswordViewController.m; sourceTree = "<group>"; };
+		65A7F2C919BE13BC0097A8B3 /* MTEiPadAgendaHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadAgendaHeader.h; sourceTree = "<group>"; };
+		65A7F2CA19BE13BC0097A8B3 /* MTEiPadAgendaHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadAgendaHeader.m; sourceTree = "<group>"; };
+		65A7F2CC19BE28F30097A8B3 /* MTEiPadDayAgendaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadDayAgendaTableViewController.h; sourceTree = "<group>"; };
+		65A7F2CD19BE28F30097A8B3 /* MTEiPadDayAgendaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadDayAgendaTableViewController.m; sourceTree = "<group>"; };
+		65AB1DE71A1A9C7F009CA8C0 /* MTEcitaCompleta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEcitaCompleta.h; sourceTree = "<group>"; };
+		65AB1DE81A1A9C7F009CA8C0 /* MTEcitaCompleta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEcitaCompleta.m; sourceTree = "<group>"; };
+		65ADD69F1A2798ED00B30CED /* MTEdiagnosticoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEdiagnosticoTableViewController.h; sourceTree = "<group>"; };
+		65ADD6A01A2798ED00B30CED /* MTEdiagnosticoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEdiagnosticoTableViewController.m; sourceTree = "<group>"; };
+		65ADD6A21A27994100B30CED /* MTEdiagTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEdiagTableViewCell.h; sourceTree = "<group>"; };
+		65ADD6A31A27994100B30CED /* MTEdiagTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEdiagTableViewCell.m; sourceTree = "<group>"; };
+		65ADD6A41A27994100B30CED /* MTEdiagTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTEdiagTableViewCell.xib; sourceTree = "<group>"; };
+		65ADD6A91A27A6FD00B30CED /* MTEdiagnostico.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEdiagnostico.h; sourceTree = "<group>"; };
+		65ADD6AA1A27A6FD00B30CED /* MTEdiagnostico.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEdiagnostico.m; sourceTree = "<group>"; };
+		65ADD6AC1A28DCF800B30CED /* diagnosticos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = diagnosticos.txt; sourceTree = "<group>"; };
+		65ADD6AE1A291B1700B30CED /* MTEmedicamentosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEmedicamentosTableViewController.h; sourceTree = "<group>"; };
+		65ADD6AF1A291B1700B30CED /* MTEmedicamentosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEmedicamentosTableViewController.m; sourceTree = "<group>"; };
+		65ADD6B31A291D8500B30CED /* MTEmedicamento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEmedicamento.h; sourceTree = "<group>"; };
+		65ADD6B41A291D8500B30CED /* MTEmedicamento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEmedicamento.m; sourceTree = "<group>"; };
+		65ADD6B61A29338300B30CED /* MTEmedicamentoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEmedicamentoTableViewCell.h; sourceTree = "<group>"; };
+		65ADD6B71A29338300B30CED /* MTEmedicamentoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEmedicamentoTableViewCell.m; sourceTree = "<group>"; };
+		65ADD6B81A29338300B30CED /* MTEmedicamentoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTEmedicamentoTableViewCell.xib; sourceTree = "<group>"; };
+		65ADD6BB1A2937C900B30CED /* medicamentos.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = medicamentos.txt; sourceTree = "<group>"; };
+		65AECFED1A0C1436009CE819 /* MTEiPadEntidadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadEntidadTableViewCell.h; sourceTree = "<group>"; };
+		65AECFEE1A0C1436009CE819 /* MTEiPadEntidadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadEntidadTableViewCell.m; sourceTree = "<group>"; };
+		65AECFEF1A0C1436009CE819 /* MTEiPadEntidadTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTEiPadEntidadTableViewCell.xib; sourceTree = "<group>"; };
+		65AECFF21A0C1620009CE819 /* MTEiPadEntidadesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadEntidadesTableViewController.h; sourceTree = "<group>"; };
+		65AECFF31A0C1620009CE819 /* MTEiPadEntidadesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadEntidadesTableViewController.m; sourceTree = "<group>"; };
+		65AECFF51A0C2465009CE819 /* Arrow_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow_2.png; sourceTree = "<group>"; };
+		65AECFF91A0C2C4D009CE819 /* Arrow_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow_4.png; sourceTree = "<group>"; };
+		65AECFFB1A0C339D009CE819 /* MTEProcedimientosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEProcedimientosTableViewController.h; sourceTree = "<group>"; };
+		65AECFFC1A0C339D009CE819 /* MTEProcedimientosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEProcedimientosTableViewController.m; sourceTree = "<group>"; };
+		65AECFFE1A0C33BE009CE819 /* MTEprocedimiento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEprocedimiento.h; sourceTree = "<group>"; };
+		65AECFFF1A0C33BE009CE819 /* MTEprocedimiento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEprocedimiento.m; sourceTree = "<group>"; };
+		65AED0011A0C3AAD009CE819 /* MTECrearProcedimientoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTECrearProcedimientoViewController.h; sourceTree = "<group>"; };
+		65AED0021A0C3AAD009CE819 /* MTECrearProcedimientoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTECrearProcedimientoViewController.m; sourceTree = "<group>"; };
+		65B790401A0D61590019B262 /* MTEiPadProcedimientosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadProcedimientosTableViewController.h; sourceTree = "<group>"; };
+		65B790411A0D61590019B262 /* MTEiPadProcedimientosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadProcedimientosTableViewController.m; sourceTree = "<group>"; };
+		65B790431A0D61D50019B262 /* MTEiPadCrearProcedimientoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadCrearProcedimientoViewController.h; sourceTree = "<group>"; };
+		65B790441A0D61D50019B262 /* MTEiPadCrearProcedimientoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadCrearProcedimientoViewController.m; sourceTree = "<group>"; };
+		65B790461A0D7DEE0019B262 /* MTEPreciosXEntidadCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEPreciosXEntidadCollectionViewController.h; sourceTree = "<group>"; };
+		65B790471A0D7DEE0019B262 /* MTEPreciosXEntidadCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEPreciosXEntidadCollectionViewController.m; sourceTree = "<group>"; };
+		65BCA6DA19B8DB9E00B63EF9 /* MTEAgendaDayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEAgendaDayTableViewController.h; sourceTree = "<group>"; };
+		65BCA6DB19B8DB9E00B63EF9 /* MTEAgendaDayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEAgendaDayTableViewController.m; sourceTree = "<group>"; };
+		65C90FAB1A02AF0400FB0893 /* MTECrearCitaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTECrearCitaViewController.h; sourceTree = "<group>"; };
+		65C90FAC1A02AF0400FB0893 /* MTECrearCitaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTECrearCitaViewController.m; sourceTree = "<group>"; };
+		65C90FAE1A02B42B00FB0893 /* flechaAbajo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flechaAbajo.png; sourceTree = "<group>"; };
+		65C90FAF1A02B42B00FB0893 /* flechaArriba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flechaArriba.png; sourceTree = "<group>"; };
+		65C90FB51A02D01A00FB0893 /* MTEdayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEdayTableViewCell.h; sourceTree = "<group>"; };
+		65C90FB61A02D01A00FB0893 /* MTEdayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEdayTableViewCell.m; sourceTree = "<group>"; };
+		65C90FB71A02D01A00FB0893 /* MTEdayTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTEdayTableViewCell.xib; sourceTree = "<group>"; };
+		65CFE5711AB783BB0023E11E /* Field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Field.png; sourceTree = "<group>"; };
+		65D9D39A1A40C7630009AB49 /* MTEExamenFisico2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEExamenFisico2ViewController.h; sourceTree = "<group>"; };
+		65D9D39B1A40C7630009AB49 /* MTEExamenFisico2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEExamenFisico2ViewController.m; sourceTree = "<group>"; };
+		65D9D39D1A40CB690009AB49 /* MTEControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEControlViewController.h; sourceTree = "<group>"; };
+		65D9D39E1A40CB690009AB49 /* MTEControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEControlViewController.m; sourceTree = "<group>"; };
+		65EA76211A092C8500C12F54 /* MTEentidadesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEentidadesTableViewController.h; sourceTree = "<group>"; };
+		65EA76221A092C8500C12F54 /* MTEentidadesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEentidadesTableViewController.m; sourceTree = "<group>"; };
+		65EA76241A092D0500C12F54 /* MTEentidadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEentidadTableViewCell.h; sourceTree = "<group>"; };
+		65EA76251A092D0500C12F54 /* MTEentidadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEentidadTableViewCell.m; sourceTree = "<group>"; };
+		65EA76261A092D0500C12F54 /* MTEentidadTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTEentidadTableViewCell.xib; sourceTree = "<group>"; };
+		65EA76291A0969BD00C12F54 /* CheckBox_Ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckBox_Ok.png; sourceTree = "<group>"; };
+		65EA762A1A0969BD00C12F54 /* CheckBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CheckBox.png; sourceTree = "<group>"; };
+		65F72BF119F71ED100C9EF46 /* MTEEntidad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEEntidad.h; sourceTree = "<group>"; };
+		65F72BF219F71ED100C9EF46 /* MTEEntidad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEEntidad.m; sourceTree = "<group>"; };
+		65FED3DE19B0F74A0042EF67 /* Field_Password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Field_Password.png; sourceTree = "<group>"; };
+		65FED3E019B0F99E0042EF67 /* Background_buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_buttons.png; sourceTree = "<group>"; };
+		65FED3E219B0FE380042EF67 /* MTEMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEMainMenuViewController.h; sourceTree = "<group>"; };
+		65FED3E319B0FE380042EF67 /* MTEMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEMainMenuViewController.m; sourceTree = "<group>"; };
+		65FED3E519B11A0F0042EF67 /* Field_mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Field_mail.png; sourceTree = "<group>"; };
+		65FED3E719B12C4A0042EF67 /* MTEipadLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEipadLoginViewController.h; sourceTree = "<group>"; };
+		65FED3E819B12C4A0042EF67 /* MTEipadLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEipadLoginViewController.m; sourceTree = "<group>"; };
+		65FED3EA19B130040042EF67 /* MTEiPadMainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadMainMenuViewController.h; sourceTree = "<group>"; };
+		65FED3EB19B130040042EF67 /* MTEiPadMainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadMainMenuViewController.m; sourceTree = "<group>"; };
+		65FED3ED19B130100042EF67 /* MTEiPadRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTEiPadRegisterViewController.h; sourceTree = "<group>"; };
+		65FED3EE19B130100042EF67 /* MTEiPadRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTEiPadRegisterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +397,11 @@
 		6507A8D4198C002500778DFE /* MedicalAssistant */ = {
 			isa = PBXGroup;
 			children = (
+				659ECEFD19B62D3F00E4FA14 /* Model */,
+				6507A906198C00E700778DFE /* VIEW */,
+				659ECEFE19B62D5000E4FA14 /* Controller */,
 				6507A8DD198C002500778DFE /* MTEAppDelegate.h */,
 				6507A8DE198C002500778DFE /* MTEAppDelegate.m */,
-				6507A8E0198C002500778DFE /* Main_iPhone.storyboard */,
-				6507A8E3198C002500778DFE /* Main_iPad.storyboard */,
-				6507A8E6198C002500778DFE /* MTEViewController.h */,
-				6507A8E7198C002500778DFE /* MTEViewController.m */,
 				6507A8E9198C002500778DFE /* Images.xcassets */,
 				6507A8D5198C002500778DFE /* Supporting Files */,
 			);
@@ -129,6 +411,39 @@
 		6507A8D5198C002500778DFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				65ADD6AC1A28DCF800B30CED /* diagnosticos.txt */,
+				65ADD6BB1A2937C900B30CED /* medicamentos.txt */,
+				65590A9B1ABA01D500709D0C /* controltab1.png */,
+				65590A9C1ABA01D500709D0C /* controltab2.png */,
+				65590A931ABA001A00709D0C /* historiatab1.png */,
+				65590A941ABA001A00709D0C /* historiatab2.png */,
+				65590A8B1AB9F60300709D0C /* exa1tab1.png */,
+				65590A8C1AB9F60300709D0C /* exa1tab2.png */,
+				65590A8D1AB9F60300709D0C /* exa2tab1.png */,
+				65590A8E1AB9F60300709D0C /* exa2tab2.png */,
+				65590A871AB9EF8C00709D0C /* pacTab1.png */,
+				65590A881AB9EF8C00709D0C /* pacTab2.png */,
+				656691721AB8D90C00E22E20 /* agenda.png */,
+				656691811AB9116100E22E20 /* agenda2.png */,
+				656691741AB8DA8E00E22E20 /* consultorio.png */,
+				6566917A1AB8E2F900E22E20 /* entidades.png */,
+				656691761AB8DBDE00E22E20 /* procedimientos.png */,
+				6566917C1AB9037900E22E20 /* pacientes.png */,
+				659383281AB7AB0B0082BDC4 /* bg2.png */,
+				656691781AB8DDEC00E22E20 /* bcint.png */,
+				6508822319B78986002FD16D /* Arrow_1.png */,
+				65AECFF51A0C2465009CE819 /* Arrow_2.png */,
+				65CFE5711AB783BB0023E11E /* Field.png */,
+				6508822519B7898C002FD16D /* Arrow_3.png */,
+				65AECFF91A0C2C4D009CE819 /* Arrow_4.png */,
+				65EA76291A0969BD00C12F54 /* CheckBox_Ok.png */,
+				65EA762A1A0969BD00C12F54 /* CheckBox.png */,
+				65FED3E519B11A0F0042EF67 /* Field_mail.png */,
+				65C90FAE1A02B42B00FB0893 /* flechaAbajo.png */,
+				65C90FAF1A02B42B00FB0893 /* flechaArriba.png */,
+				65FED3E019B0F99E0042EF67 /* Background_buttons.png */,
+				65FED3DE19B0F74A0042EF67 /* Field_Password.png */,
+				6507A90F198C099900778DFE /* medLogoLetras.png */,
 				6507A8D6198C002500778DFE /* MedicalAssistant-Info.plist */,
 				6507A8D7198C002500778DFE /* InfoPlist.strings */,
 				6507A8DA198C002500778DFE /* main.m */,
@@ -153,6 +468,172 @@
 				6507A8F9198C002500778DFE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6507A906198C00E700778DFE /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				6507A8E0198C002500778DFE /* Main_iPhone.storyboard */,
+				6552568819E610C200F19E7E /* Main_iPad.storyboard */,
+				6508822019B77BDB002FD16D /* MTEagendaCollectionHeader.h */,
+				6508822119B77BDB002FD16D /* MTEagendaCollectionHeader.m */,
+				65A7F2C919BE13BC0097A8B3 /* MTEiPadAgendaHeader.h */,
+				65A7F2CA19BE13BC0097A8B3 /* MTEiPadAgendaHeader.m */,
+				65C90FB51A02D01A00FB0893 /* MTEdayTableViewCell.h */,
+				65C90FB61A02D01A00FB0893 /* MTEdayTableViewCell.m */,
+				65C90FB71A02D01A00FB0893 /* MTEdayTableViewCell.xib */,
+				654CB4C21A1C04A1006157E7 /* MTEiPadDayTableViewCell.h */,
+				654CB4C31A1C04A1006157E7 /* MTEiPadDayTableViewCell.m */,
+				654CB4C41A1C04A1006157E7 /* MTEiPadDayTableViewCell.xib */,
+				65ADD6A21A27994100B30CED /* MTEdiagTableViewCell.h */,
+				65ADD6A31A27994100B30CED /* MTEdiagTableViewCell.m */,
+				65ADD6A41A27994100B30CED /* MTEdiagTableViewCell.xib */,
+				65ADD6B61A29338300B30CED /* MTEmedicamentoTableViewCell.h */,
+				65ADD6B71A29338300B30CED /* MTEmedicamentoTableViewCell.m */,
+				65ADD6B81A29338300B30CED /* MTEmedicamentoTableViewCell.xib */,
+				6539B9BB19FAAB30006D6531 /* MTEPacienteTableViewCell.h */,
+				6539B9BC19FAAB30006D6531 /* MTEPacienteTableViewCell.m */,
+				6539B9BD19FAAB30006D6531 /* MTEPacienteTableViewCell.xib */,
+				6599526619FED9FC00FAC612 /* MTEiPadPacienteTableViewCell.h */,
+				6599526719FED9FC00FAC612 /* MTEiPadPacienteTableViewCell.m */,
+				6599526819FED9FC00FAC612 /* MTEiPadPacienteTableViewCell.xib */,
+				65EA76241A092D0500C12F54 /* MTEentidadTableViewCell.h */,
+				65EA76251A092D0500C12F54 /* MTEentidadTableViewCell.m */,
+				65EA76261A092D0500C12F54 /* MTEentidadTableViewCell.xib */,
+				65AECFED1A0C1436009CE819 /* MTEiPadEntidadTableViewCell.h */,
+				65AECFEE1A0C1436009CE819 /* MTEiPadEntidadTableViewCell.m */,
+				65AECFEF1A0C1436009CE819 /* MTEiPadEntidadTableViewCell.xib */,
+				65A33DF31A1123F500DB41E3 /* MTEPrecioXEntidadCollectionViewCell.h */,
+				65A33DF41A1123F500DB41E3 /* MTEPrecioXEntidadCollectionViewCell.m */,
+				65A33DF51A1123F500DB41E3 /* MTEPrecioXEntidadCollectionViewCell.xib */,
+				65A33DFE1A1184D500DB41E3 /* MTEiPadPrecioXEntidadCollectionViewCell.h */,
+				65A33DFF1A1184D500DB41E3 /* MTEiPadPrecioXEntidadCollectionViewCell.m */,
+				65A33E001A1184D500DB41E3 /* MTEiPadPrecioXEntidadCollectionViewCell.xib */,
+				656691691AB88DE500E22E20 /* MTEFormulacionTableViewCell.h */,
+				6566916A1AB88DE500E22E20 /* MTEFormulacionTableViewCell.m */,
+				6566916B1AB88DE500E22E20 /* MTEFormulacionTableViewCell.xib */,
+			);
+			name = VIEW;
+			sourceTree = "<group>";
+		};
+		659ECEFD19B62D3F00E4FA14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				659ECEFF19B62D7200E4FA14 /* MTEday.h */,
+				659ECF0019B62D7200E4FA14 /* MTEday.m */,
+				659C2DDE19F0385600620DE5 /* MTEpaciente.h */,
+				659C2DDF19F0385600620DE5 /* MTEpaciente.m */,
+				659C2DE119F0386800620DE5 /* MTEconsultorio.h */,
+				659C2DE219F0386800620DE5 /* MTEconsultorio.m */,
+				65F72BF119F71ED100C9EF46 /* MTEEntidad.h */,
+				65F72BF219F71ED100C9EF46 /* MTEEntidad.m */,
+				65AECFFE1A0C33BE009CE819 /* MTEprocedimiento.h */,
+				65AECFFF1A0C33BE009CE819 /* MTEprocedimiento.m */,
+				65A33DF81A115CCD00DB41E3 /* MTEprecioProcedimiento.h */,
+				65A33DF91A115CCD00DB41E3 /* MTEprecioProcedimiento.m */,
+				65793EE01A166D5A0095D3F6 /* MTEcita.h */,
+				65793EE11A166D5A0095D3F6 /* MTEcita.m */,
+				65AB1DE71A1A9C7F009CA8C0 /* MTEcitaCompleta.h */,
+				65AB1DE81A1A9C7F009CA8C0 /* MTEcitaCompleta.m */,
+				65ADD6A91A27A6FD00B30CED /* MTEdiagnostico.h */,
+				65ADD6AA1A27A6FD00B30CED /* MTEdiagnostico.m */,
+				65ADD6B31A291D8500B30CED /* MTEmedicamento.h */,
+				65ADD6B41A291D8500B30CED /* MTEmedicamento.m */,
+				656691661AB88CAD00E22E20 /* MTEformulacion.h */,
+				656691671AB88CAD00E22E20 /* MTEformulacion.m */,
+				6566917E1AB90D5900E22E20 /* MTEantecedente.h */,
+				6566917F1AB90D5900E22E20 /* MTEantecedente.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		659ECEFE19B62D5000E4FA14 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				659C2DDB19F0366500620DE5 /* MTEMedicalCenter.h */,
+				659C2DDC19F0366500620DE5 /* MTEMedicalCenter.m */,
+				6507A907198C013A00778DFE /* MTELoginViewController.h */,
+				6507A908198C013A00778DFE /* MTELoginViewController.m */,
+				65FED3E719B12C4A0042EF67 /* MTEipadLoginViewController.h */,
+				65FED3E819B12C4A0042EF67 /* MTEipadLoginViewController.m */,
+				65A36A1619DF27210091A34B /* MTEForgotPasswordViewController.h */,
+				65A36A1719DF27210091A34B /* MTEForgotPasswordViewController.m */,
+				65FED3E219B0FE380042EF67 /* MTEMainMenuViewController.h */,
+				65FED3E319B0FE380042EF67 /* MTEMainMenuViewController.m */,
+				65FED3EA19B130040042EF67 /* MTEiPadMainMenuViewController.h */,
+				65FED3EB19B130040042EF67 /* MTEiPadMainMenuViewController.m */,
+				6507A90A198C044A00778DFE /* MTERegisterViewController.h */,
+				6507A90B198C044A00778DFE /* MTERegisterViewController.m */,
+				65FED3ED19B130100042EF67 /* MTEiPadRegisterViewController.h */,
+				65FED3EE19B130100042EF67 /* MTEiPadRegisterViewController.m */,
+				6562A0831A1563EC004F0903 /* MTEiphoneAgendaMonthCollectionViewController.h */,
+				6562A0841A1563EC004F0903 /* MTEiphoneAgendaMonthCollectionViewController.m */,
+				6584BF8D19BA652900995B0F /* MTEiPadAgendaMonthViewController.h */,
+				6584BF8E19BA652900995B0F /* MTEiPadAgendaMonthViewController.m */,
+				65BCA6DA19B8DB9E00B63EF9 /* MTEAgendaDayTableViewController.h */,
+				65BCA6DB19B8DB9E00B63EF9 /* MTEAgendaDayTableViewController.m */,
+				65C90FAB1A02AF0400FB0893 /* MTECrearCitaViewController.h */,
+				65C90FAC1A02AF0400FB0893 /* MTECrearCitaViewController.m */,
+				6590619F1A2CE64B0001496B /* MTEresultadoCitaViewController.h */,
+				659061A01A2CE64B0001496B /* MTEresultadoCitaViewController.m */,
+				65ADD69F1A2798ED00B30CED /* MTEdiagnosticoTableViewController.h */,
+				65ADD6A01A2798ED00B30CED /* MTEdiagnosticoTableViewController.m */,
+				65A033071A1BA05D00198333 /* MTEiPadCrearCitaViewController.h */,
+				65A033081A1BA05D00198333 /* MTEiPadCrearCitaViewController.m */,
+				65A7F2CC19BE28F30097A8B3 /* MTEiPadDayAgendaTableViewController.h */,
+				65A7F2CD19BE28F30097A8B3 /* MTEiPadDayAgendaTableViewController.m */,
+				6584BF8A19BA55F000995B0F /* MTEiPadAgendaViewController.h */,
+				6584BF8B19BA55F000995B0F /* MTEiPadAgendaViewController.m */,
+				659C2DE419F05BE500620DE5 /* MTEConsultoriosTableViewController.h */,
+				659C2DE519F05BE500620DE5 /* MTEConsultoriosTableViewController.m */,
+				659C2DE719F073F600620DE5 /* MTEiPadConsultoriosTableViewController.h */,
+				659C2DE819F073F600620DE5 /* MTEiPadConsultoriosTableViewController.m */,
+				6503CA9519EF0B1F0037576B /* MTECrearConsultorioViewController.h */,
+				6503CA9619EF0B1F0037576B /* MTECrearConsultorioViewController.m */,
+				6503CA9819EF20CD0037576B /* MTEiPadCrearConsultorioViewController.h */,
+				6503CA9919EF20CD0037576B /* MTEiPadCrearConsultorioViewController.m */,
+				6539B9B819FAAA84006D6531 /* MTEClientesTableViewController.h */,
+				6539B9B919FAAA84006D6531 /* MTEClientesTableViewController.m */,
+				6539B9A919F9B2C0006D6531 /* MTECrearClienteViewController.h */,
+				6539B9AA19F9B2C0006D6531 /* MTECrearClienteViewController.m */,
+				6539B9B519F9B4CD006D6531 /* MTESelecEntidadTableViewController.h */,
+				6539B9B619F9B4CD006D6531 /* MTESelecEntidadTableViewController.m */,
+				6599526B19FEDAA100FAC612 /* MTEiPadClientesTableViewController.h */,
+				6599526C19FEDAA100FAC612 /* MTEiPadClientesTableViewController.m */,
+				6599526E19FEDAE700FAC612 /* MTEiPadCrearClienteViewController.h */,
+				6599526F19FEDAE700FAC612 /* MTEiPadCrearClienteViewController.m */,
+				6599527119FEE3D500FAC612 /* MTEiPadSelecEntidadTableViewController.h */,
+				6599527219FEE3D500FAC612 /* MTEiPadSelecEntidadTableViewController.m */,
+				65EA76211A092C8500C12F54 /* MTEentidadesTableViewController.h */,
+				65EA76221A092C8500C12F54 /* MTEentidadesTableViewController.m */,
+				65AECFF21A0C1620009CE819 /* MTEiPadEntidadesTableViewController.h */,
+				65AECFF31A0C1620009CE819 /* MTEiPadEntidadesTableViewController.m */,
+				65AECFFB1A0C339D009CE819 /* MTEProcedimientosTableViewController.h */,
+				65AECFFC1A0C339D009CE819 /* MTEProcedimientosTableViewController.m */,
+				65AED0011A0C3AAD009CE819 /* MTECrearProcedimientoViewController.h */,
+				65AED0021A0C3AAD009CE819 /* MTECrearProcedimientoViewController.m */,
+				65B790461A0D7DEE0019B262 /* MTEPreciosXEntidadCollectionViewController.h */,
+				65B790471A0D7DEE0019B262 /* MTEPreciosXEntidadCollectionViewController.m */,
+				65B790401A0D61590019B262 /* MTEiPadProcedimientosTableViewController.h */,
+				65B790411A0D61590019B262 /* MTEiPadProcedimientosTableViewController.m */,
+				65B790431A0D61D50019B262 /* MTEiPadCrearProcedimientoViewController.h */,
+				65B790441A0D61D50019B262 /* MTEiPadCrearProcedimientoViewController.m */,
+				65A33DFB1A11849F00DB41E3 /* MTEiPadPreciosXEntidadCollectionViewController.h */,
+				65A33DFC1A11849F00DB41E3 /* MTEiPadPreciosXEntidadCollectionViewController.m */,
+				653586D61A93B0F400BAA55E /* MTEExamenFisicoViewController.h */,
+				653586D71A93B0F400BAA55E /* MTEExamenFisicoViewController.m */,
+				65D9D39A1A40C7630009AB49 /* MTEExamenFisico2ViewController.h */,
+				65D9D39B1A40C7630009AB49 /* MTEExamenFisico2ViewController.m */,
+				653586D31A93AF0200BAA55E /* MTEHistoriaClinicaViewController.h */,
+				653586D41A93AF0200BAA55E /* MTEHistoriaClinicaViewController.m */,
+				65D9D39D1A40CB690009AB49 /* MTEControlViewController.h */,
+				65D9D39E1A40CB690009AB49 /* MTEControlViewController.m */,
+				656691631AB8888900E22E20 /* MTEFormulacionTableViewController.h */,
+				656691641AB8888900E22E20 /* MTEFormulacionTableViewController.m */,
+				65ADD6AE1A291B1700B30CED /* MTEmedicamentosTableViewController.h */,
+				65ADD6AF1A291B1700B30CED /* MTEmedicamentosTableViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +684,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Mangosta Tecnologia";
 				TargetAttributes = {
+					6507A8CA198C002500778DFE = {
+						DevelopmentTeam = 8JZMM84GJT;
+					};
 					6507A8EE198C002500778DFE = {
 						TestTargetID = 6507A8CA198C002500778DFE;
 					};
@@ -232,10 +716,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6507A8E5198C002500778DFE /* Main_iPad.storyboard in Resources */,
+				65590A921AB9F60300709D0C /* exa2tab2.png in Resources */,
+				656691791AB8DDEC00E22E20 /* bcint.png in Resources */,
+				65ADD6A61A27994100B30CED /* MTEdiagTableViewCell.xib in Resources */,
+				65590A9D1ABA01D500709D0C /* controltab1.png in Resources */,
+				65C90FB01A02B42B00FB0893 /* flechaAbajo.png in Resources */,
 				6507A8EA198C002500778DFE /* Images.xcassets in Resources */,
+				65590A951ABA001A00709D0C /* historiatab1.png in Resources */,
+				65A33DF71A1123F500DB41E3 /* MTEPrecioXEntidadCollectionViewCell.xib in Resources */,
+				65590A891AB9EF8C00709D0C /* pacTab1.png in Resources */,
+				65590A911AB9F60300709D0C /* exa2tab1.png in Resources */,
 				6507A8E2198C002500778DFE /* Main_iPhone.storyboard in Resources */,
+				65ADD6AD1A28DCF800B30CED /* diagnosticos.txt in Resources */,
+				656691771AB8DBDE00E22E20 /* procedimientos.png in Resources */,
 				6507A8D9198C002500778DFE /* InfoPlist.strings in Resources */,
+				656691731AB8D90C00E22E20 /* agenda.png in Resources */,
+				65590A8A1AB9EF8C00709D0C /* pacTab2.png in Resources */,
+				65FED3DF19B0F74A0042EF67 /* Field_Password.png in Resources */,
+				65590A901AB9F60300709D0C /* exa1tab2.png in Resources */,
+				6508822419B78986002FD16D /* Arrow_1.png in Resources */,
+				659383291AB7AB0B0082BDC4 /* bg2.png in Resources */,
+				65EA762B1A0969BD00C12F54 /* CheckBox_Ok.png in Resources */,
+				6552568A19E610C200F19E7E /* Main_iPad.storyboard in Resources */,
+				654CB4C61A1C04A1006157E7 /* MTEiPadDayTableViewCell.xib in Resources */,
+				656691821AB9116100E22E20 /* agenda2.png in Resources */,
+				6507A910198C099900778DFE /* medLogoLetras.png in Resources */,
+				6508822619B7898C002FD16D /* Arrow_3.png in Resources */,
+				65590A8F1AB9F60300709D0C /* exa1tab1.png in Resources */,
+				65AECFF11A0C1436009CE819 /* MTEiPadEntidadTableViewCell.xib in Resources */,
+				65ADD6BC1A2937C900B30CED /* medicamentos.txt in Resources */,
+				6539B9BF19FAAB30006D6531 /* MTEPacienteTableViewCell.xib in Resources */,
+				65C90FB91A02D01A00FB0893 /* MTEdayTableViewCell.xib in Resources */,
+				65FED3E619B11A0F0042EF67 /* Field_mail.png in Resources */,
+				65ADD6BA1A29338300B30CED /* MTEmedicamentoTableViewCell.xib in Resources */,
+				6566917B1AB8E2F900E22E20 /* entidades.png in Resources */,
+				65AECFFA1A0C2C4D009CE819 /* Arrow_4.png in Resources */,
+				65C90FB11A02B42B00FB0893 /* flechaArriba.png in Resources */,
+				656691751AB8DA8E00E22E20 /* consultorio.png in Resources */,
+				6566916D1AB88DE500E22E20 /* MTEFormulacionTableViewCell.xib in Resources */,
+				65EA762C1A0969BD00C12F54 /* CheckBox.png in Resources */,
+				6599526A19FED9FC00FAC612 /* MTEiPadPacienteTableViewCell.xib in Resources */,
+				65A33E021A1184D500DB41E3 /* MTEiPadPrecioXEntidadCollectionViewCell.xib in Resources */,
+				65EA76281A092D0500C12F54 /* MTEentidadTableViewCell.xib in Resources */,
+				6566917D1AB9037900E22E20 /* pacientes.png in Resources */,
+				65AECFF61A0C2465009CE819 /* Arrow_2.png in Resources */,
+				65590A9E1ABA01D500709D0C /* controltab2.png in Resources */,
+				65590A961ABA001A00709D0C /* historiatab2.png in Resources */,
+				65CFE5721AB783BB0023E11E /* Field.png in Resources */,
+				65FED3E119B0F99E0042EF67 /* Background_buttons.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +782,74 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B790421A0D61590019B262 /* MTEiPadProcedimientosTableViewController.m in Sources */,
+				656691801AB90D5900E22E20 /* MTEantecedente.m in Sources */,
+				65ADD6B01A291B1700B30CED /* MTEmedicamentosTableViewController.m in Sources */,
+				6584BF8C19BA55F000995B0F /* MTEiPadAgendaViewController.m in Sources */,
+				6507A90C198C044A00778DFE /* MTERegisterViewController.m in Sources */,
+				65B790481A0D7DEE0019B262 /* MTEPreciosXEntidadCollectionViewController.m in Sources */,
+				65A033091A1BA05D00198333 /* MTEiPadCrearCitaViewController.m in Sources */,
+				65A33DFA1A115CCD00DB41E3 /* MTEprecioProcedimiento.m in Sources */,
+				65793EE21A166D5A0095D3F6 /* MTEcita.m in Sources */,
+				6599527019FEDAE700FAC612 /* MTEiPadCrearClienteViewController.m in Sources */,
+				659C2DE919F073F600620DE5 /* MTEiPadConsultoriosTableViewController.m in Sources */,
+				6539B9BE19FAAB30006D6531 /* MTEPacienteTableViewCell.m in Sources */,
+				659ECF0119B62D7200E4FA14 /* MTEday.m in Sources */,
+				659C2DE019F0385600620DE5 /* MTEpaciente.m in Sources */,
+				6503CA9719EF0B1F0037576B /* MTECrearConsultorioViewController.m in Sources */,
+				6599526919FED9FC00FAC612 /* MTEiPadPacienteTableViewCell.m in Sources */,
+				6507A909198C013A00778DFE /* MTELoginViewController.m in Sources */,
+				65A33E011A1184D500DB41E3 /* MTEiPadPrecioXEntidadCollectionViewCell.m in Sources */,
+				6566916C1AB88DE500E22E20 /* MTEFormulacionTableViewCell.m in Sources */,
+				65A36A1819DF27210091A34B /* MTEForgotPasswordViewController.m in Sources */,
+				6599526D19FEDAA100FAC612 /* MTEiPadClientesTableViewController.m in Sources */,
+				653586D51A93AF0200BAA55E /* MTEHistoriaClinicaViewController.m in Sources */,
+				65AED0031A0C3AAD009CE819 /* MTECrearProcedimientoViewController.m in Sources */,
+				65FED3EF19B130100042EF67 /* MTEiPadRegisterViewController.m in Sources */,
+				6508822219B77BDB002FD16D /* MTEagendaCollectionHeader.m in Sources */,
+				65ADD6A11A2798ED00B30CED /* MTEdiagnosticoTableViewController.m in Sources */,
+				65FED3E419B0FE380042EF67 /* MTEMainMenuViewController.m in Sources */,
+				65FED3E919B12C4A0042EF67 /* MTEipadLoginViewController.m in Sources */,
+				653586D81A93B0F400BAA55E /* MTEExamenFisicoViewController.m in Sources */,
+				6503CA9A19EF20CD0037576B /* MTEiPadCrearConsultorioViewController.m in Sources */,
+				659C2DDD19F0366500620DE5 /* MTEMedicalCenter.m in Sources */,
+				65ADD6B91A29338300B30CED /* MTEmedicamentoTableViewCell.m in Sources */,
+				65EA76231A092C8500C12F54 /* MTEentidadesTableViewController.m in Sources */,
+				65C90FB81A02D01A00FB0893 /* MTEdayTableViewCell.m in Sources */,
+				65AB1DE91A1A9C7F009CA8C0 /* MTEcitaCompleta.m in Sources */,
+				6562A0851A1563EC004F0903 /* MTEiphoneAgendaMonthCollectionViewController.m in Sources */,
+				656691681AB88CAD00E22E20 /* MTEformulacion.m in Sources */,
+				65EA76271A092D0500C12F54 /* MTEentidadTableViewCell.m in Sources */,
+				659C2DE619F05BE500620DE5 /* MTEConsultoriosTableViewController.m in Sources */,
 				6507A8DB198C002500778DFE /* main.m in Sources */,
+				65D9D39F1A40CB690009AB49 /* MTEControlViewController.m in Sources */,
+				65C90FAD1A02AF0400FB0893 /* MTECrearCitaViewController.m in Sources */,
+				654CB4C51A1C04A1006157E7 /* MTEiPadDayTableViewCell.m in Sources */,
+				65A7F2CE19BE28F30097A8B3 /* MTEiPadDayAgendaTableViewController.m in Sources */,
+				65D9D39C1A40C7630009AB49 /* MTEExamenFisico2ViewController.m in Sources */,
+				65AED0001A0C33BE009CE819 /* MTEprocedimiento.m in Sources */,
+				65F72BF319F71ED100C9EF46 /* MTEEntidad.m in Sources */,
+				659061A11A2CE64B0001496B /* MTEresultadoCitaViewController.m in Sources */,
+				6539B9BA19FAAA84006D6531 /* MTEClientesTableViewController.m in Sources */,
+				65A33DFD1A11849F00DB41E3 /* MTEiPadPreciosXEntidadCollectionViewController.m in Sources */,
+				65AECFF41A0C1620009CE819 /* MTEiPadEntidadesTableViewController.m in Sources */,
+				65FED3EC19B130040042EF67 /* MTEiPadMainMenuViewController.m in Sources */,
+				65A7F2CB19BE13BC0097A8B3 /* MTEiPadAgendaHeader.m in Sources */,
+				65BCA6DC19B8DB9E00B63EF9 /* MTEAgendaDayTableViewController.m in Sources */,
+				65ADD6B51A291D8500B30CED /* MTEmedicamento.m in Sources */,
+				659C2DE319F0386800620DE5 /* MTEconsultorio.m in Sources */,
+				65ADD6AB1A27A6FD00B30CED /* MTEdiagnostico.m in Sources */,
+				6599527319FEE3D500FAC612 /* MTEiPadSelecEntidadTableViewController.m in Sources */,
+				65ADD6A51A27994100B30CED /* MTEdiagTableViewCell.m in Sources */,
+				65A33DF61A1123F500DB41E3 /* MTEPrecioXEntidadCollectionViewCell.m in Sources */,
+				6584BF8F19BA652900995B0F /* MTEiPadAgendaMonthViewController.m in Sources */,
+				65B790451A0D61D50019B262 /* MTEiPadCrearProcedimientoViewController.m in Sources */,
+				65AECFFD1A0C339D009CE819 /* MTEProcedimientosTableViewController.m in Sources */,
+				656691651AB8888900E22E20 /* MTEFormulacionTableViewController.m in Sources */,
+				65AECFF01A0C1436009CE819 /* MTEiPadEntidadTableViewCell.m in Sources */,
+				6539B9B719F9B4CD006D6531 /* MTESelecEntidadTableViewController.m in Sources */,
+				6539B9AB19F9B2C0006D6531 /* MTECrearClienteViewController.m in Sources */,
 				6507A8DF198C002500778DFE /* MTEAppDelegate.m in Sources */,
-				6507A8E8198C002500778DFE /* MTEViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,20 +888,20 @@
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		6507A8E3198C002500778DFE /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6507A8E4198C002500778DFE /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		6507A8F9198C002500778DFE /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6507A8FA198C002500778DFE /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6552568819E610C200F19E7E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6552568919E610C200F19E7E /* Base */,
+			);
+			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -391,10 +984,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MedicalAssistant/MedicalAssistant-Prefix.pch";
 				INFOPLIST_FILE = "MedicalAssistant/MedicalAssistant-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,10 +1001,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MedicalAssistant/MedicalAssistant-Prefix.pch";
 				INFOPLIST_FILE = "MedicalAssistant/MedicalAssistant-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +1072,7 @@
 				6507A902198C002500778DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6507A903198C002500778DFE /* Build configuration list for PBXNativeTarget "MedicalAssistantTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +1081,7 @@
 				6507A905198C002500778DFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
